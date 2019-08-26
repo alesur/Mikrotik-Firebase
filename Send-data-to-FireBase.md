@@ -19,8 +19,14 @@
 \"model\":\"$mkmdl\"}" url="https://YOUR-DATABASE.firebaseio.com/BRANCH/$mkserial.json"
 ```
 
-it will look like this
+Data on FireBase will look like this:
 
 * BRANCH
    * 403107XXXXXX
-      * Item 2b
+      * cvers: "6.44.5" 
+      * date: "aug/26/2019" 
+      * model: "RB750Gr3" 
+      * name: "Public" 
+      * time: "05:12:00" 
+      * time: "05:12:00" 
+      * verschan: "long-term" 

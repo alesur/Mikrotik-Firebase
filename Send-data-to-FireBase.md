@@ -16,12 +16,12 @@
 \"verschan\":\"$mkupdch\",
 \"time\":\"$timechk\",
 \"date\":\"$datechk\",
-\"model\":\"$mkmdl\"}" url="https://YOUR-DATABASE.firebaseio.com/BRANCH/$mkserial.json"
+\"model\":\"$mkmdl\"}" url="https://YOUR-DATABASE.firebaseio.com/BRANCH-NAME/$mkserial.json"
 ```
 
 Data on FireBase will look like this:
 
-* BRANCH
+* BRANCH-NAME
    * 403107XXXXXX   **<-- Mikrotik Serial**
       * cvers: "6.44.5" 
       * date: "aug/26/2019" 
@@ -30,3 +30,11 @@ Data on FireBase will look like this:
       * time: "05:12:00" 
       * time: "05:12:00" 
       * verschan: "long-term" 
+
+Basic security rules:
+
+"BRANCH-NAME": {
+   ".read": true,
+      "$uid":{
+      ".write": "$uid === $uid"
+      }

@@ -22,7 +22,7 @@
 Data on FireBase will look like this:
 
 * BRANCH
-   * 403107XXXXXX
+   * 403107XXXXXX   <- Mikrotik Serial
       * cvers: "6.44.5" 
       * date: "aug/26/2019" 
       * model: "RB750Gr3" 

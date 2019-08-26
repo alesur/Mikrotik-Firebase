@@ -33,8 +33,10 @@ Data on FireBase will look like this:
 
 Basic security rules:
 
+```
 "BRANCH-NAME": {
    ".read": true,
       "$uid":{
       ".write": "$uid === $uid"
       }
+```

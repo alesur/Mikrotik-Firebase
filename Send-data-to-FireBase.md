@@ -18,3 +18,9 @@
 \"date\":\"$datechk\",
 \"model\":\"$mkmdl\"}" url="https://YOUR-DATABASE.firebaseio.com/BRANCH/$mkserial.json"
 ```
+
+it will look like this
+
+* BRANCH
+   * 403107XXXXXX
+      * Item 2b

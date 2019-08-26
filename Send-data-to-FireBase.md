@@ -1,6 +1,6 @@
 # Send Data from Mikrotik to Firebase
 
-'''
+```
 :global mkserial [/system routerboard get serial-number]
 :global mkname [/system identity get name]
 :global mkupdiv [/system package update get installed-version]
@@ -17,4 +17,4 @@
 \"time\":\"$timechk\",
 \"date\":\"$datechk\",
 \"model\":\"$mkmdl\"}" url="https://YOUR-DATABASE.firebaseio.com/BRANCH/$mkserial.json"
-'''
+```
